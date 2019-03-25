@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>백그라운드 이미지로 넣기</title>
+
+	<style type="text/css">
+
+		body,h1,img{margin: 0; padding: 0;}
+		.wrap{width: 1200px; margin: auto;}
+		header{height: 400px; background: url(ha.jpg);
+			background-size: cover;}
+		@font-face { font-family: 'UhBeeyul'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_five@.2.0/UhBeeyul.woff') format('woff'); font-weight: normal; font-style: normal; }
+		html {font-family: UhBeeyul;}
+		h1{text-align: left; padding-top: 150px; color: white; padding-left: 100px; padding-top: 160px; font-size: 60px;}
+		header p {padding-left: 100px; color: white;}
+		
+		.img-box img{ display: box; float: left; }
+		
+		.back-img1{background:url(http://file3.instiz.net/data/cached_img/upload/2018/04/22/0/f48daca4f532c69d84d9a3f2e90c194a_mp4.gif); background-size: cover; background-position: auto -30px; }
+		.back-img2{background:url(https://t1.daumcdn.net/cfile/tistory/9982CD475C3742E71D); background-size: cover; }
+		.back-img3{background:url(https://t1.daumcdn.net/cfile/tistory/99D9CF415C4ED2C926); background-size: cover; }		
+		.back-img4{background:url(https://i.pinimg.com/originals/69/19/52/691952937e4b446fb36e2a3bd0f8f9ab.gif); background-size: cover; }	
+		.inner{height: 540px; float: left; width: 50%; background: pink;}
+		.pic{height: 500px; }
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<h1>벌써 12시</h1>
+			<p>하늘은 더 까맣고 별들은 더 빛나고 감성은 더 짙어져</p>
+		</header>
+		<section>
+			<h2>졸린데 졸리다고 말할 수 없네.</h2>
+			<p>괴롭다 졸립다. 그만 집에 가고싶다.
+			들리지 않을 소리 열심히 말해본다!!</p>
+			<div class="img-box">
+				<div class="inner">
+					<div class="pic back-img1"></div>
+					<p>1번 사진 캡션</p>
+				</div>
+				<div class="inner ">
+					<div class="pic back-img2"></div>
+					<p>2번 사진 캡션</p>
+				</div>
+				<div class="inner ">
+					<div class="pic back-img4"></div>
+					<p>3번 사진 캡션</p>
+				</div>
+				<div class="inner ">
+					<div class="pic back-img3"></div>
+					<p>4번 사진 캡션</p>
+				</div>
+		</section>
+
+	</div>
+
+</body>
+</html>
